@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+#calculator {
+    background-color: rgb(22, 22, 22);
+    border-radius: 10px;
+}
+
+#display {
+    margin: 20px 10px 10px;
+    background-color: lightgray;
+    height: 80px;
+    width: 492px;
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-family: "Roboto Mono", monospace;
+    font-size: 60px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    background-color: gray;
+    border-color: gray;
+    border-radius: 2px;
+    height: 80px;
+    width: 120px;
+    margin: 2px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.sys {
+    background-color: darkorange;
+    border-color: darkorange;
+}
+
+.number {
+    background-color: gray;
+    border-color: gray;
+}
+
+.operator {
+    background-color: rgb(0, 88, 110);
+    border-color: rgb(0, 88, 110);
+}
+
+.mod {
+    background-color: rgb(70, 70, 70);
+    border-color: rgb(70, 70, 70);
+}
